@@ -8,7 +8,11 @@ body {
 .code {
     color:#858EF4;
 }
+
 .attribute {
+    color:#93D5FA;
+}
+.attribute-value {
     color: goldenrod;
 }
 
