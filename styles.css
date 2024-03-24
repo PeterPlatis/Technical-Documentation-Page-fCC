@@ -5,3 +5,14 @@ body {
     font-size: large; */
 }
 
+.code {
+    color:#858EF4;
+}
+.attribute {
+    color: goldenrod;
+}
+
+.text-code {
+    color: #858EF4;
+    /* text-decoration: underline; */
+}
