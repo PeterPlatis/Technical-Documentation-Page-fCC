@@ -142,4 +142,10 @@ p>code, li>code {
         display: block;
         margin:0;
     }
+
+    img {
+        display: block;
+        width: 90%;
+        margin: auto;
+    }
 }
