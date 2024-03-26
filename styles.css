@@ -114,6 +114,20 @@ p>code, li>code {
     padding: 5px;
     padding-top: 4px;
     border-radius: 3px;
+    font-weight: 700;
+}
+
+#main-doc li {
+    padding: 12px;
+}
+
+.ref-link {
+    color: #9c9c9c;
+    text-decoration: none;
+}
+
+.ref-link:hover{
+    color: #dfdfdf
 }
 
 @media screen and (max-width: 815px) {
