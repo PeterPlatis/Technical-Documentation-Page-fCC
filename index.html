@@ -82,7 +82,7 @@
                 <p>Some elements have no content and are called <strong>void elements</strong>. Take the <code class="code">&lt;img&gt;</code> element that we already have in our HTML page:</p>
                 <div>
                     <code>
-                        <span class="code">&lt;img </span><span class="attribute">src</span>=<span class="attribute-value">"images/firefox-icon.png"</span> <span class="attribute">alt</span>=<span class="attribute-value">"My test image"</span><span class="code">/></span>
+                        <span class="code">&lt;img </span><span class="attribute">src</span>=<span class="attribute-value">"images/firefox-icon.png"</span> <span class="attribute">alt</span>=<span class="attribute-value">"My test image"</span><span class="code">/&gt;</span>
                     </code>
                 </div>
                 <p>This contains two attributes, but there is no closing <code class="text-code">&lt;/img&gt;</code> tag and no inner content. This is because an image element doesn't wrap content to affect it. Its purpose is to embed an image in the HTML page in the place it appears.</p>
@@ -92,26 +92,26 @@
                 <p>That wraps up the basics of individual HTML elements, but they aren't handy on their own. Lets look at how individual elements are combined to form an entire HTML page.</p>
                 <div>
                     <code>
-                        &lt;!DOCTYPE html><br>
+                        &lt;!DOCTYPE html&gt;<br>
                         <span class="code">&lt;html&gt;</span><br>
                             <span class="indent"></span><span class="code">&lt;head&gt;</span><br>
-                                <span class="indent"></span><span class="indent"></span><span class="code">&lt;meta</span> <span class="attribute">charset</span>=<span class="attribute-value">"utf-8"</span><span class="code">/></span><br>
-                                <span class="indent"></span><span class="indent"></span><span class="code">&lt;meta</span> <span class="attribute">name</span>=<span class="attribute-value">"viewport"</span> <span class="attribute">content</span>=<span class="attribute-value">"width=device-width"</span><span class="code">/></span><br>
+                                <span class="indent"></span><span class="indent"></span><span class="code">&lt;meta</span> <span class="attribute">charset</span>=<span class="attribute-value">"utf-8"</span><span class="code">/&gt;</span><br>
+                                <span class="indent"></span><span class="indent"></span><span class="code">&lt;meta</span> <span class="attribute">name</span>=<span class="attribute-value">"viewport"</span> <span class="attribute">content</span>=<span class="attribute-value">"width=device-width"</span><span class="code">/&gt;</span><br>
                                 <span class="indent"></span><span class="indent"></span><span class="code">&lt;title&gt;</span>My test page<span class="code">&lt;/title&gt;</span><br>
                             <span class="indent"></span><span class="code">&lt;/head&gt;</span><br>
                             <span class="indent"></span><span class="code">&lt;body&gt;</span><br>
-                                <span class="indent"></span><span class="indent"></span><span class="code">&lt;img</span> <span class="attribute">src</span>=<span class="attribute-value">"images/firefox-icon.png"</span> <span class="attribute">alt</span>=<span class="attribute-value">"My test image"</span><span class="code">/></span><br>
+                                <span class="indent"></span><span class="indent"></span><span class="code">&lt;img</span> <span class="attribute">src</span>=<span class="attribute-value">"images/firefox-icon.png"</span> <span class="attribute">alt</span>=<span class="attribute-value">"My test image"</span><span class="code">/&gt;</span><br>
                             <span class="indent"></span><span class="code">&lt;/body&gt;</span><br>
                         <span class="code">&lt;/html&gt;</span><br>
                     </code>
                 </div>
                 <p>Here, we have the following:</p>
                 <ul>
-                    <li><code>&lt;!DOCTYPE html></code> — The <strong>doctype</strong>. It is a required preamble. It doesn't do much and it is basically just needed to make sure your document behaves correctly.<span class="text-code"></span></li>
+                    <li><code>&lt;!DOCTYPE html&gt;</code> — The <strong>doctype</strong>. It is a required preamble. It doesn't do much and it is basically just needed to make sure your document behaves correctly.<span class="text-code"></span></li>
                     <li><code>&lt;html&gt;&lt;/html&gt;</code> — The <code class="text-code">&lt;html&gt;</code>element. This element wraps all the content on the entire page and is sometimes known as the root element. It also includes the <code>lang</code> attribute, setting the primary language of the document.</li>
                     <li><code>&lt;head&gt;&lt;/head&gt;</code> — The <code class="text-code">&lt;head&gt;</code>element. This element acts as a container for all the stuff you want to include on the HTML page that isn't the content you are showing to your page's viewers.</li>
                     <li><code>&lt;meta charset="utf-8"&gt;</code> — This element sets the character set your document should use to UTF-8 which includes most characters from the vast majority of written languages.</li>
-                    <li><code>&lt;meta name="viewport" content="width=device-width"&gt;</code> — This viewport element ensures the page renders at the width of viewport, preventing mobile browsers from rendering pages wider than the viewport and then shrinking them down.</span></li>
+                    <li><code>&lt;meta name="viewport" content="width=device-width"&gt;</code> — This viewport element ensures the page renders at the width of viewport, preventing mobile browsers from rendering pages wider than the viewport and then shrinking them down.</li>
                     <li><code>&lt;title&gt;&lt;/title&gt;</code> — The <code class="text-code">&lt;title&gt;</code> element. This sets the title of your page, which is the title that appears in the browser tab the page is loaded in. It is also used to describe the page when you bookmark/favorite it.</li>
                     <li><code>&lt;body&gt;&lt;/body&gt;</code> — The <code class="text-code">&lt;body&gt;</code> element. his contains all the content that you want to show to web users when they visit your page, whether that's text, images, videos, games, playable audio tracks, or whatever else.</li>
                 </ul>
@@ -121,7 +121,7 @@
                 <p>Let's turn our attention to the <code class="text-code">&lt;img&gt;</code> element:</p>
                 <div>
                     <code>
-                        <span class="code">&lt;img</span> <span class="attribute">src</span>=<span class="attribute-value">"images/firefox-icon.png"</span> <span class="attribute">alt</span>=<span class="attribute-value">"My test image"</span><span class="code">/></span>
+                        <span class="code">&lt;img</span> <span class="attribute">src</span>=<span class="attribute-value">"images/firefox-icon.png"</span> <span class="attribute">alt</span>=<span class="attribute-value">"My test image"</span><span class="code">/&gt;</span>
                     </code>
                 </div>
                 <p>It embeds an image into our page in the position it appears. It does this via the <code class="attribute">src</code> (source) attribute, which contains the path to our image file.</p>
@@ -134,22 +134,22 @@
             </section>
             <section id="Headings" class="main-section">
                 <header>Headings</header>
-                <p>Heading elements allow you to specify that certain parts of your content are headings — or subheadings. In the same way that a book has the main title, chapter titles, and subtitles, an HTML document can too. HTML contains 6 heading levels, <code class="text-code">&lt;h1></code> - <code class="text-code">&lt;h6></h6></code>, although you'll commonly only use 3 to 4 at most:</p>
+                <p>Heading elements allow you to specify that certain parts of your content are headings — or subheadings. In the same way that a book has the main title, chapter titles, and subtitles, an HTML document can too. HTML contains 6 heading levels, <code class="text-code">&lt;h1&gt;</code> - <code class="text-code">&lt;h6&gt;</code>, although you'll commonly only use 3 to 4 at most:</p>
                 <div>
                     <code>
-                        <span class="code">&lt;h1></span>My main title<span class="code">&lt;/h1></span><br>
-                        <span class="code">&lt;h2></span>My top level heading<span class="code">&lt;/h2></span><br>
-                        <span class="code">&lt;h3></span>My subheading<span class="code">&lt;/h3></span><br>
-                        <span class="code">&lt;h4></span>My sub-subheading<span class="code">&lt;/h4></span><br>
+                        <span class="code">&lt;h1&gt;</span>My main title<span class="code">&lt;/h1&gt;</span><br>
+                        <span class="code">&lt;h2&gt;</span>My top level heading<span class="code">&lt;/h2&gt;</span><br>
+                        <span class="code">&lt;h3&gt;</span>My subheading<span class="code">&lt;/h3&gt;</span><br>
+                        <span class="code">&lt;h4&gt;</span>My sub-subheading<span class="code">&lt;/h4&gt;</span><br>
                     </code>
                 </div>
             </section>
             <section id="Paragraphs" class="main-section">
                 <header>Paragraphs</header>
-                <p>As explained above, <code class="code">&lt;p></code> elements are for containing paragraphs of text; you'll use these frequently when marking up regular text content:</p>
+                <p>As explained above, <code class="code">&lt;p</code> elements are for containing paragraphs of text; you'll use these frequently when marking up regular text content:</p>
                 <div>
                     <code>
-                        <span class="code">&lt;p></span>This is a single paragraph<span class="code">&lt;/p></span>
+                        <span class="code">&lt;p&gt;</span>This is a single paragraph<span class="code">&lt;/p&gt;</span>
                     </code>
                 </div>
             </section>
@@ -157,34 +157,34 @@
                 <header>Lists</header>
                 <p>A lot of the web's content is lists and HTML has special elements for these. Marking up lists always consists of at least 2 elements. The most common list types are ordered and unordered lists:</p>
                 <ol>
-                    <li><strong>Unordered lists</strong> are for lists where the order of the items doesn't matter, such as a shopping list. These are wrapped in a <code class="text-code">&lt;ul></code> element.</li>
+                    <li><strong>Unordered lists</strong> are for lists where the order of the items doesn't matter, such as a shopping list. These are wrapped in a <code class="text-code">&lt;ul&gt;</code> element.</li>
                     <li><strong>Ordered lists</strong> are for lists where the order of the items does matter, such as a recipe. These are wrapped in an <code class="text-code">&lt;ol&gt;</code> element.</li>
                 </ol>
-                <p>Each item inside the lists is put inside an <code class="text-code">&lt;li></code> (list item) element.</p>
+                <p>Each item inside the lists is put inside an <code class="text-code">&lt;li&gt;</code> (list item) element.</p>
             </section>
             <section id="Links" class="main-section">
                 <header>Links</header>
-                <p>To add a link, we need to use a simple element — <code class="text-code">&lt;a></code> — "a" being the short form for "anchor". To make text within your paragraph into a link, follow these steps:</p>
+                <p>To add a link, we need to use a simple element — <code class="text-code">&lt;a&gt;</code> — "a" being the short form for "anchor". To make text within your paragraph into a link, follow these steps:</p>
                 <ol>
                     <li>Choose some text. We chose the text "Mozilla Manifesto".</li>
-                    <li>Wrap the text in an <a> element, as shown below:</li>
+                    <li>Wrap the text in an <code class="text-code">&lt;a&gt;</code> element, as shown below:</li>
                         <div>
                             <code>
-                                <span class="code">&lt;a</span>></span>Mozilla Manifesto<span class="code">&lt;/a></span>
+                                <span class="code">&lt;a&gt;</span>Mozilla Manifesto<span class="code">&lt;/a&gt;</span>
                             </code>
                         </div>
-                    <li>Give the <code class="text-code">&lt;a></code> element an <code class="attribute">href</code> attribute, as shown below:</li>
+                    <li>Give the <code class="text-code">&lt;a&gt;</code> element an <code class="attribute">href</code> attribute, as shown below:</li>
                     <div>
                         <code>
-                            <span class="code">&lt;a</span> <span class="attribute">href</span>=<span class="attribute-value">""</span><span class="code">></span>Mozilla Manifesto<span class="code">&lt;/a></span>
+                            <span class="code">&lt;a</span> <span class="attribute">href</span>=<span class="attribute-value">""</span><span class="code">&gt;</span>Mozilla Manifesto<span class="code">&lt;/a&gt;</span>
                         </code>
                     </div>
                     <li>Fill in the value of this attribute with the web address that you want the link to point to:</li>
                     <div>
                         <code>
-                            <span class="code">&lt;a</span> <span class="attribute">href</span>=<span class="attribute-value">"https://www.mozilla.org/en-US/about/manifesto/"</span><span class="code">></span>
+                            <span class="code">&lt;a</span> <span class="attribute">href</span>=<span class="attribute-value">"https://www.mozilla.org/en-US/about/manifesto/"</span><span class="code">&gt;</span>
                                 Mozilla Manifesto
-                            <span class="code">&lt;/a></span>
+                            <span class="code">&lt;/a&gt;</span>
                         </code>
                     </div>
                 </ol>
