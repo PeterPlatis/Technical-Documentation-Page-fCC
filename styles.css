@@ -92,7 +92,6 @@ header {
 }
 
 div {
-    /* position: inherit; */
     background-color: #1d1c1c;
     max-width: 1000px;
     margin-top: 10px;
@@ -106,7 +105,7 @@ div {
 li div {
     position: relative;
     left: -40px;
-    width: 70vw;
+    width: 100%;
 }
 
 p {
@@ -139,6 +138,9 @@ p>code, li>code {
 }
 
 @media screen and (max-width: 1100px) {
+    body {
+        font-size: 1rem;
+    }
     #navbar {
         width: 320px;
     }
@@ -147,7 +149,7 @@ p>code, li>code {
     }
     #navbar li {
         margin: 0 20px;
-        padding: 15px;
+        padding: 15px 0;
     }
     #main-doc {
         margin-left: 330px;
