@@ -138,6 +138,24 @@ p>code, li>code {
     color: #dfdfdf
 }
 
+@media screen and (max-width: 1100px) {
+    #navbar {
+        width: 320px;
+    }
+    #navbar a {
+        padding:0;
+    }
+    #navbar li {
+        margin: 0 20px;
+    }
+    #main-doc {
+        margin-left: 330px;
+    }
+    img {
+        max-width: 100%;
+    }
+}
+
 @media screen and (max-width: 815px) {
     body {
         font-size: 0.95rem;
